@@ -1,5 +1,5 @@
 :root {
-    --colorbg: hsl(117deg 41% 50%);
+    --colorbg: hsl(117deg 38% 50%);
     --subcolorbg: hsl(115deg 60% 34%);
     --colort:white;
     --colorsec:hsl(122deg 58% 17%);
@@ -106,10 +106,36 @@ body {
 }
 
 /*HEADER END*/
+/*Box*/
 .box{
     grid-area: box;
 }
+.seccion{
+    padding: 4em;
+    padding-top: 2em;
+}
+.boxsub{
+    color: hsl(117deg 38% 50%);
+    font-weight: 900;
+    font-size: 22pt;
+}
+.boxminisub{
+    margin-top: 2em;
+    color: var(--subcolorbg);
+    font-size: 17pt;
+    margin-bottom: 1em;
+}
+.boxminitit{
+    font-weight: 600;
+    font-size: 16pt;
+}
+.list{
+    padding: 0;
+    padding-left: 1em;
+    line-height: 2.3em;
+}
 
+/*Box END*/
 .cajahorizontal{
     display: flex;
     flex-direction: column;
